@@ -1,0 +1,52 @@
+/*
+*
+* CSS Reset
+*
+*/
+* {
+	/*padding: 0;*/
+	/*margin: 0;*/
+	box-sizing: border-box;
+
+}
+
+
+body {
+	background-color: red;
+}
+
+
+main#wrapper {
+
+	background-color: white;
+	width: 80%;
+	margin: 0 auto; /* Will center wrapper*/ 
+	padding: 25px;
+	min-height: 100vh; /* Viewport  height*/
+	/*text-align: center;*/
+
+}
+
+
+h1,
+h2,
+h3{
+	
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+h4,
+h5,
+h6,
+p,
+footer,
+small
+{
+	
+	font-family: 'Roboto', sans-serif;
+}
+
+.red-font{
+	color:red;
+}
